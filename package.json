@@ -6,6 +6,18 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "knex": "^2.4.2",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "rbac_node_api-s",
+  "description": "RBAC (Role-Based Access Control) is a security model that allows access to resources in a system based on the roles assigned to users. In this model, users are assigned roles, and access to resources is granted based on those roles. RBAC helps to manage the permissions of different users based on their role, making it easier to maintain security in a system.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon app.js",
+    "devStartAuth": "nodemon authServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
